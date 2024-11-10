@@ -1,5 +1,7 @@
 no gramarly for u
 
+check [login.py](login.py) for a working example.
+
 # token collecting related stuff
 
 https://login.bitdefender.com/?redirect_url=native://com.bitdefender.vpn&lang=fr_FR 
@@ -73,7 +75,7 @@ now do a post req to https://nimbus.bitdefender.net/connect/connect with the fol
   "params": {
     "device": {
       "device_name": "SM-A137F", // your android phone model name
-      "androidid": "z2jd32kr45", // you can change this to anything random
+      "androidid": "z2jd32kr45", // get your id from a real device https://stackoverflow.com/questions/5486694/getting-android-device-identifier-from-adb-and-android-sdk
       "device_type": "phone",
       "device_os": "android"
     },
