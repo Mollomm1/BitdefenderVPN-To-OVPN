@@ -2,6 +2,8 @@
 
 my personnal script to create .ovpn file from Bitdefender vpn (since they don't have any linux client).
 
+[poorly written docs (wip)](tests/notes.md)
+
 ```bash
 usage: BitdefenderVPN To OVPN [-h] -t TOKEN [-l LOCATION] [-p {tcp,udp}]
 
@@ -64,4 +66,4 @@ all the reverse engeinnering was made using [HTTP Toolkit](https://httptoolkit.c
 
 ![terry the terible](https://media1.tenor.com/m/MsDhsn6a3EIAAAAd/terry-davis.gif "")
 
-it also only works on the unlimited plan since bitdefender does not use the same provider for the free and unlimited plan (idk why) and you will need to find your account token by yourself too.
+it also only works on the unlimited plan since bitdefender does not use the same provider for the free and unlimited plan (idk why).
