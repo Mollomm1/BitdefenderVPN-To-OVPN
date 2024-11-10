@@ -1,1 +1,3 @@
 requests
+selenium
+selenium-wire-2

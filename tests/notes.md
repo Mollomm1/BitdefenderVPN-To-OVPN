@@ -1,6 +1,6 @@
 no gramarly for u
 
-check [login.py](login.py) for a working example.
+check [login.py](login.py) for a working example (you need to collect your android_id and phone model before launching the script).
 
 # token collecting related stuff
 
